@@ -1,3 +1,32 @@
+This repo exists due to an issue in [silverstripe/silverstripe-redirectedurls/issues/82](https://github.com/silverstripe/silverstripe-redirectedurls/issues/82)
+
+
+
+The pull request to fix this hasn't been actioned yet. [/silverstripe/silverstripe-redirectedurls/pull/80](https://github.com/silverstripe/silverstripe-redirectedurls/pull/80)
+> Note: this requests a PR that thankfully has been actioned [silverstripe/silverstripe-assets/pull/391](https://github.com/silverstripe/silverstripe-assets/pull/391)
+
+
+This repo is just a fork of [madmatt/silverstripe-redirectedurls/tree/pulls/asset-redirection](https://github.com/madmatt/silverstripe-redirectedurls/tree/pulls/asset-redirection) that has been merged into `master`.
+
+>Note: `master` has also been renamed into `main`
+
+You can consume this with the following details.
+
+
+```json
+{
+	"require": {
+		"silverstripe/redirectedurls": "dev-main"
+	},
+	"repositories": [
+		{
+            "type": "vcs",
+            "url": "https://github.com/Dave-Clark-Design-Associates/silverstripe-redirectedurls"
+        },
+	]
+}
+```
+
 Redirected URLs
 ===============
 

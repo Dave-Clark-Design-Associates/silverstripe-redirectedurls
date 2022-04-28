@@ -1,3 +1,8 @@
+## Branch explanation
+This branch exits to allow the /assets/ path redirection to be done, whilst still being compatible with an older SS version
+
+
+## Repo explantion
 This repo exists due to an issue in [silverstripe/silverstripe-redirectedurls/issues/82](https://github.com/silverstripe/silverstripe-redirectedurls/issues/82)
 
 

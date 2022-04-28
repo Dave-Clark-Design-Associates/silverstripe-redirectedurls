@@ -88,8 +88,9 @@ class RedirectedURLService
 
     public function getResponse(RedirectedURL $redirect): HTTPResponse
     {
+        $dest = $redirect->To;
         $response = HTTPResponse::create()
-            ->redirect(Director::absoluteURL($redirect->Link()), $this->getRedirectCode($redirect));
+            ->redirect(Director::absoluteURL($dest), 301);
 
         return $response;
     }

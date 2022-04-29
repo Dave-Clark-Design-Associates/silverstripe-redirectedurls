@@ -21,7 +21,7 @@ You can consume this with the following details.
 ```json
 {
 	"require": {
-		"silverstripe/redirectedurls": "dev-main"
+		"silverstripe/redirectedurls": "dev-feature/ss4.8"
 	},
 	"repositories": [
 		{

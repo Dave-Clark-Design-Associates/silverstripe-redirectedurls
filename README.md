@@ -10,13 +10,17 @@ This repo is just a fork of [madmatt/silverstripe-redirectedurls/tree/pulls/asse
 
 >Note: `master` has also been renamed into `main`
 
+
+DCDA's main brain is `dcda-main`
+
+
 You can consume this with the following details.
 
 
 ```json
 {
 	"require": {
-		"silverstripe/redirectedurls": "dev-main"
+		"silverstripe/redirectedurls": "dev-dcda_main"
 	},
 	"repositories": [
 		{

@@ -8,11 +8,8 @@ The pull request to fix this hasn't been actioned yet. [/silverstripe/silverstri
 
 This repo is just a fork of [madmatt/silverstripe-redirectedurls/tree/pulls/asset-redirection](https://github.com/madmatt/silverstripe-redirectedurls/tree/pulls/asset-redirection) that has been merged into `master`.
 
->Note: `master` has also been renamed into `main`
-
-
-DCDA's main brain is `dcda-main`
-
+---
+## DCDA's main brain is `dcda_main`
 
 You can consume this with the following details.
 
